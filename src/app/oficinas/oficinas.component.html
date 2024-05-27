@@ -1,0 +1,26 @@
+<div class="oficinas-container">
+    <app-navbar></app-navbar>
+    <div class="oficinas-content">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Provincia</th>
+            <th>Ciudad</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let oficina of Oficinas">
+            <td>{{ oficina.ide }}</td>
+            <td>{{ oficina.provincia }}</td>
+            <td>{{ oficina.ciudad }}</td>
+            <td>{{ oficina.direccion }}</td>
+            <td>{{ oficina.telefono }}</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

@@ -1,0 +1,85 @@
+{
+  "hash": "63d76557",
+  "configHash": "8f7cd3d0",
+  "lockfileHash": "c6e172a7",
+  "browserHash": "43ed184a",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "83753f3c",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "3129560a",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "a17e626b",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "9493bd8e",
+      "needsInterop": false
+    },
+    "@angular/material/snack-bar": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/snack-bar.mjs",
+      "file": "@angular_material_snack-bar.js",
+      "fileHash": "f0b37fad",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7f02c092",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "672adad9",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "c13cbb8d",
+      "needsInterop": false
+    },
+    "rxjs/operators": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
+      "file": "rxjs_operators.js",
+      "fileHash": "816a2ea6",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-JN54DNYU": {
+      "file": "browser-JN54DNYU.js"
+    },
+    "chunk-4FDD2XIS": {
+      "file": "chunk-4FDD2XIS.js"
+    },
+    "chunk-DI2GYZIL": {
+      "file": "chunk-DI2GYZIL.js"
+    },
+    "chunk-A3U7J67G": {
+      "file": "chunk-A3U7J67G.js"
+    },
+    "chunk-VSCI7OFK": {
+      "file": "chunk-VSCI7OFK.js"
+    },
+    "chunk-6BO63HA2": {
+      "file": "chunk-6BO63HA2.js"
+    },
+    "chunk-V2MCY3ZS": {
+      "file": "chunk-V2MCY3ZS.js"
+    }
+  }
+}
