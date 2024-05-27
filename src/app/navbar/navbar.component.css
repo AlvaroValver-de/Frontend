@@ -1,0 +1,49 @@
+.container {
+    background-color: black;
+  }
+  
+  .header {
+    background-color: black;
+    border-bottom: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo-container {
+    width: 30%;
+  }
+  
+  .logo {
+    width: 100%;
+    max-height: 4cm;
+  }
+  
+  .nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-link {
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    border-color: yellow;
+  }
+  
+  .content {
+    background-color: white; /* Fondo blanco para la sección de contenido */
+  }
+  .header .nav .nav-link {
+    text-decoration: none;
+  }
+  

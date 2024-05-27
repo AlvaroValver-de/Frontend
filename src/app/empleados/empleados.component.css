@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  background-color: black;
+  color: white; /* Asegura que el texto sea visible en el fondo negro */
+  min-height: 100vh; /* Asegura que el fondo negro cubra toda la altura de la ventana */
+  padding: 1rem;
+}
+
+.empleados-container {
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: yellow; /* Fondo amarillo para los títulos */
+  color: black; /* Texto negro para los títulos */
+}
+
+tr:nth-child(even) {
+  background-color: #444;
+}
+
+.empleados-content {
+  margin-top: 1rem;
+}

@@ -1,0 +1,27 @@
+<div class="empleados-container">
+  <app-navbar></app-navbar>
+  <div class="empleados-content">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Oficina ID</th>
+          <th>Oficina Dirección</th>
+          <th>Cargo</th>
+          <th>Salario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let empleado of empleados">
+          <td>{{ empleado.nombre }}</td>
+          <td>{{ empleado.apellido }}</td>
+          <td>{{ empleado.oficinaID }}</td>
+          <td>{{ empleado.oficinaDireccion }}</td>
+          <td>{{ empleado.cargo }}</td>
+          <td>{{ empleado.salario  }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
